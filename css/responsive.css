@@ -1,0 +1,691 @@
+/* Mobile styles */
+  @media (max-width: 767px) {
+    .hero-image-container {
+      height: 28vh;
+      margin-left: -60px;
+      margin-bottom: -200px;
+      min-height: 150px;
+      max-height: 250px;
+      margin-right: -150px;
+    }
+    
+    .main-heading {
+      margin-left:20px;
+      font-size: 1.5rem !important;
+      line-height: 1.2;
+      padding-left: 150px;
+    }
+    
+    .main-text {
+      font-size: 1rem !important;
+      margin-left: 20px;
+      padding-left: 120px;
+
+    }
+    .aboutustext {
+      display: block;
+      column-gap: 20px;
+      font-size: .6rem;
+      font-weight: 400;
+      margin-right: 5px;
+      margin-left: 5px;
+      text-align: justify;
+      max-width: none;
+      width: 350px;
+     
+    }
+    .text-container {
+      padding: 1rem !important;
+    }
+    .aboutusimg {
+        margin-right: -250px;
+        margin-top: -300px;
+        width: 00px;
+        height: 00px;
+
+      
+    }
+    .aboutus-text-column {
+        margin-bottom: -499px;
+    }
+    .vision-text-container {
+        
+    }
+    .vision-heading {
+        margin-top: -380px;
+        margin-left: 150px;
+    }
+    .visiontext {
+        margin-left: 150px;
+        font-size: 0.6rem;
+        line-height: 1.6;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    .visionimg {
+        margin-left: 55px;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 7px solid gray;
+    }
+
+    .service-img-container {
+      margin-left: 90px;
+    }
+    
+    .service-img {
+     width: 190px;
+      height: 190px;
+      object-fit: cover;
+      border:3px solid gray;
+      border-radius: 8%;
+      
+    }
+    .footer-logo {
+      width: 125px;
+      height: 125px;
+      margin-bottom: -30px;
+      margin-left: -10px;
+      
+    }
+
+    .service-main-heading {
+       
+       
+    }
+    .service-heading {
+      margin-left: 0p2x; margin-bottom: -0px;
+      
+      
+    }
+    .footer-service-text {
+      text-align: justify;
+    }
+  .service-text {
+    
+    margin-left: 20px;
+    font-size: .7rem; line-height: 1.6; padding-left: 1.2rem; ;
+  }
+        /* Reduce section height */
+      #contact {
+        padding-top: 1rem !important;
+        padding-bottom: 1.5rem !important;
+      }
+
+      /* Brand color styles */
+      .btn-whatsapp {
+        background-color: #25D366;
+        border-color: #25D366;
+        color: #fff;
+        font-size: 1rem;
+        margin-right: 5px;
+      }
+      .btn-whatsapp:hover {
+        background-color: #1eb85d;
+        border-color: #1eb85d;
+        color: #fff;
+      }
+
+      .btn-gmail {
+        background-color: #D44638;
+        border-color: #D44638;
+        color: #fff;
+        margin-left: -20px;
+        font-size: 1rem;
+        
+      }
+      .btn-gmail:hover {
+        background-color: #b63b30;
+        border-color: #b63b30;
+        color: #fff;
+      }
+
+      .btn-call {
+        background-color: #007BFF;
+        border-color: #007BFF;
+        color: #fff;
+        margin-left: -20px;
+        
+        font-size: 1rem;
+      }
+      .btn-call:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+        color: #fff;
+      }
+
+      /* Icon spacing */
+      .btn i {
+        margin-right: 8px;
+        font-size: 1rem;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .hero-image-container {
+      height: 30vh;
+      margin-bottom: -300px;
+      margin-top: 50px;
+      
+      min-height: 250px;
+      max-height: 350px;
+      margin-left: -50px;
+      
+    }
+    
+    .main-heading {
+      
+      margin-left: 300px;
+      font-size: 2.8rem !important;
+      line-height: 1.2;
+      
+    }
+    
+    .main-text {
+      font-size: 1.2rem !important;
+      margin-left: 300px;
+      
+
+    }
+    .aboutustext {
+      display: block;
+      column-gap: 20px;
+      font-size: .8rem;
+      font-weight: 400;
+      margin-right: 1px;
+      margin-left: 1px;
+      text-align: justify;
+      max-width: none;
+      width: 350px;
+     
+    }
+    .text-container {
+      padding: 1rem !important;
+    }
+    .aboutusimg {
+        margin-left: -50px;
+        
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 7px solid gray;
+
+      
+    }
+    .aboutus-text-column {
+        margin-bottom: -450px;
+    }
+    .vision-text-container {
+        
+    }
+    .vision-heading {
+        margin-top: -380px;
+        margin-left: 250px;
+    }
+    .visiontext {
+        margin-left: 250px;
+        font-size: 0.8rem;
+        line-height: 1.6;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    .visionimg {
+        margin-left: 165px;
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 7px solid gray;
+    }
+    .service-img-container {
+      margin-left: 90px;
+      
+    }
+    
+    .service-img {
+     width: 220px;
+      height: 220px;
+      
+      margin-left: -100px;
+      object-fit: cover;
+      border:3px solid gray;
+      border-radius: 8%;
+      
+    }
+    
+    .service-main-heading {
+       
+       
+    }
+    .service-heading {
+      margin-top: -250px;
+      margin-left: 250px; margin-bottom: -10px;
+      
+      
+    }
+  .service-text {
+    
+    margin-left: 250px;
+    font-size: .8rem; line-height: 1.6; padding-left: 1.2rem; ;
+  }
+        /* Reduce section height */
+      #contact {
+        padding-top: 1rem !important;
+        padding-bottom: 1.5rem !important;
+      }
+
+      /* Brand color styles */
+      .btn-whatsapp {
+        background-color: #25D366;
+        border-color: #25D366;
+        color: #fff;
+        font-size: 1rem;
+        margin-right: 5px;
+      }
+      .btn-whatsapp:hover {
+        background-color: #1eb85d;
+        border-color: #1eb85d;
+        color: #fff;
+      }
+
+      .btn-gmail {
+        background-color: #D44638;
+        border-color: #D44638;
+        color: #fff;
+        margin-left: 40px;
+        font-size: 1rem;
+        
+      }
+      .btn-gmail:hover {
+        background-color: #b63b30;
+        border-color: #b63b30;
+        color: #fff;
+      }
+
+      .btn-call {
+        background-color: #007BFF;
+        border-color: #007BFF;
+        color: #fff;
+        margin-left: 40px;
+        
+        font-size: 1rem;
+      }
+      .btn-call:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+        color: #fff;
+      }
+
+      /* Icon spacing */
+      .btn i {
+        margin-right: 8px;
+        font-size: 1rem;
+      }
+     
+    .address-text {
+      font-size: 1rem;
+      
+    }
+    .footer-logo {
+      width: 155px;
+      height: 155px;
+      margin-left: -10px;
+      margin-bottom: -40px;
+      
+      margin-top: -50px;
+      
+    }
+
+    .footer-service-text {
+      text-align: left;
+      display: block;
+      object-fit: none;
+      width: 500px;
+      height: 500px;
+      text-align: justify;
+      font-size: 1rem;
+      margin-bottom: -200px;
+    }
+    
+    .footer-contact {
+      font-size: 1rem;
+      
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1199px) {
+    .hero-image-container {
+      height: 30vh;
+      
+      margin-top: 50px;
+      margin-bottom: 80px;
+      min-height: 250px;
+      max-height: 350px;
+      
+    }
+    
+    .main-heading {
+      margin-top: -0px;
+      margin-left: -50px;
+      font-size: 2.8rem !important;
+      line-height: 1.2;
+      
+    }
+    
+    .main-text {
+      font-size: 1.2rem !important;
+      margin-left: -50px;
+      
+
+    }
+    .aboutustext {
+      display: block;
+      column-gap: 20px;
+      font-size: .9rem;
+      font-weight: 400;
+      margin-right: 1px;
+      margin-left: 1px;
+      text-align: justify;
+      max-width: none;
+      width: 350px;
+     
+    }
+    .text-container {
+      padding: 1rem !important;
+    }
+    .aboutusimg {
+        margin-left: -120px;
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 7px solid gray;
+
+      
+    }
+    .aboutus-text-column {
+        margin-bottom: -599px;
+    }
+    .vision-text-container {
+        
+    }
+    .vision-heading {
+        margin-top: -430px;
+        margin-left: 350px;
+    }
+    .visiontext {
+        margin-left: 350px;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    .visionimg {
+        
+        margin-left: 155px;
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 7px solid gray;
+    }
+    .service-img-container {
+      margin-left: 40px;
+    }
+    
+    .service-img {
+     width: 350px;
+      height: 350px;
+      object-fit: cover;
+      border:3px solid gray;
+      border-radius: 8%;
+      
+    }
+    
+    .service-main-heading {
+       
+       
+    }
+    .service-heading {
+      margin-left: -180px; margin-bottom: -10px;
+      margin-right: 5px;
+      
+      
+    }
+  .service-text {
+    margin-right: 5px;
+    margin-left: -180px;
+    font-size: .9rem; line-height: 1.6; padding-left: 1.2rem; ;
+  }
+        /* Reduce section height */
+      #contact {
+        padding-top: 1rem !important;
+        padding-bottom: 1.5rem !important;
+      }
+
+      /* Brand color styles */
+      .btn-whatsapp {
+        background-color: #25D366;
+        border-color: #25D366;
+        color: #fff;
+        font-size: 1.5rem;
+        
+      }
+      .btn-whatsapp:hover {
+        background-color: #1eb85d;
+        border-color: #1eb85d;
+        color: #fff;
+      }
+
+      .btn-gmail {
+        background-color: #D44638;
+        border-color: #D44638;
+        color: #fff;
+        margin-left: 30px;
+        font-size: 1.5rem;
+        
+      }
+      .btn-gmail:hover {
+        background-color: #b63b30;
+        border-color: #b63b30;
+        color: #fff;
+      }
+
+      .btn-call {
+        background-color: #007BFF;
+        border-color: #007BFF;
+        color: #fff;
+        margin-left: 30px;
+        
+        font-size: 1.5rem;
+      }
+      .btn-call:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+        color: #fff;
+      }
+
+      /* Icon spacing */
+      .btn i {
+        margin-right: 8px;
+        font-size: 1.8rem;
+      }
+      .footer-logo {
+      width: 225px;
+      height: 225px;
+      margin-top: -80px;
+      margin-bottom: -60px;
+      margin-left: -10px;
+      
+    }
+    .address-text {
+      font-size: 1rem;
+    }
+    .footer-service-text {
+      font-size: 1rem;
+      
+    }
+    .footer-contact {
+      font-size: 1rem;
+    }
+  }
+
+  /* Desktop styles */
+  @media (min-width: 1200px) {
+    .aboutusimg {
+      width: 600px;
+      height: 600px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 15px solid gray;
+    }
+    .aboutustext {
+      font-size: 1.1rem;
+      line-height: 1.6; 
+      font-weight: 400;
+    }
+    .hero-image-container {
+      height: 65vh;
+      min-height: 500px;
+      max-height: 700px;
+    }
+    .main-heading {
+      font-size: 55px;
+    }
+    .main-text {
+      font-size: 15px;
+    }
+    .visiontext {
+        font-size: 1.1rem; line-height: 1.6; font-weight: 400;
+    }
+
+    .visionimg {
+        width: 550px;
+        height: 550px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 15px solid gray;
+    }
+    .vision-text-container {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right center;
+            width: 60%; /* adjust as needed */
+            right: 0;
+            top: 0;
+            margin-left: 260px;
+            
+            
+            height: 100vh;
+    }
+    .service-main-heading {
+        
+    }
+    
+    .service-img-container {
+      margin-bottom: 30px;
+    }
+    .service-img {
+      
+      width: 450px;
+      height: 450px;
+      object-fit: cover;
+      border:5px solid gray;
+      border-radius: 8%;
+      
+    }
+    
+  .service-heading {
+      margin-left: -150px; margin-bottom: -10px;
+    }
+  .service-text {
+    font-size: 1rem; line-height: 1.6; padding-left: 1.2rem; margin-left: -150px;
+  }
+        /* Reduce section height */
+      #contact {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+      }
+
+      
+      .contact-container {
+        background-color: black;
+      }
+      /* Brand color styles */
+      .btn-whatsapp {
+        background-color: #25D366;
+        border-color: #25D366;
+        color: #fff;
+      }
+      .btn-whatsapp:hover {
+        background-color: #1eb85d;
+        border-color: #1eb85d;
+        color: #fff;
+      }
+
+      .btn-gmail {
+        background-color: #D44638;
+        border-color: #D44638;
+        color: #fff;
+      }
+      .btn-gmail:hover {
+        background-color: #b63b30;
+        border-color: #b63b30;
+        color: #fff;
+      }
+
+      .btn-call {
+        background-color: #007BFF;
+        border-color: #007BFF;
+        color: #fff;
+      }
+      .btn-call:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+        color: #fff;
+      }
+    .fas {
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
+      /* Icon spacing */
+      .btn i {
+        margin-right: 8px;
+        font-size: 1.2rem;
+      }
+
+
+    .address-text {
+      font-size: 1rem;
+      margin-left: -50px;
+    }
+    .footer-logo {
+      width: 155px;
+      height: 155px;
+      margin-bottom: -40px;
+      margin-left: -60px;
+      margin-top: -50px;
+      
+    }
+
+    .footer-service-text {
+      text-align: left;
+      display: block;
+      object-fit: none;
+      width: 500px;
+      height: 500px;
+      text-align: justify;
+      font-size: 1rem;
+    }
+    
+    .footer-contact {
+      font-size: 1rem;
+    }
+  }
+  
+  .text-gray {
+    color: #6c757d !important;
+  }
