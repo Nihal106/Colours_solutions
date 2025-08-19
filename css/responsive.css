@@ -96,7 +96,9 @@
        
     }
     .service-heading {
-      margin-left: 0p2x; margin-bottom: -0px;
+      
+      margin-left: 20px; margin-bottom: -0px;
+      
       
       
     }
@@ -160,6 +162,9 @@
       .btn i {
         margin-right: 8px;
         font-size: 1rem;
+      }
+      .row {
+        border: none !important;
       }
   }
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -261,8 +266,9 @@
        
     }
     .service-heading {
-      margin-top: -250px;
-      margin-left: 250px; margin-bottom: -10px;
+     
+      margin-top: -280px;
+      margin-left: 250px; margin-bottom: -20px;
       
       
     }
@@ -449,6 +455,7 @@
        
     }
     .service-heading {
+      margin-top: -10px;
       margin-left: -180px; margin-bottom: -10px;
       margin-right: 5px;
       
@@ -599,6 +606,8 @@
     
   .service-heading {
       margin-left: -150px; margin-bottom: -10px;
+      margin-top: -80px;
+      
     }
   .service-text {
     font-size: 1rem; line-height: 1.6; padding-left: 1.2rem; margin-left: -150px;
