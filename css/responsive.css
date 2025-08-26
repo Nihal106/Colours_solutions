@@ -693,8 +693,18 @@
     .footer-contact {
       font-size: 1rem;
     }
+
   }
   
   .text-gray {
     color: #6c757d !important;
   }
+  .address-text a {
+  text-decoration: none; /* removes underline */
+  color: inherit;
+          /* makes the link inherit text color */
+}
+.address-text a:hover {
+  text-decoration: underline; /* show underline only on hover */
+  color: #007bff; /* or your preferred hover color */
+}
